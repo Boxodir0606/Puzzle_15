@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#FFFFFFFF</color>
+    <color name="colorPrimary">#524170</color>
+    <color name="colorOnPrimary">#3E06A3</color>
+    <color name="startactivity">#AF8783</color>
+    <color name="gameactivity">#FFE7DA</color>
+    <color name="infoactivity">#E1C9B3</color>
+    <color name="winactivity">#80B5ACA6</color>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19144078747",
+    "project_id": "legend-puzzle-15-game",
+    "storage_bucket": "legend-puzzle-15-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19144078747:android:756d57f969da8b2b1cdd3e",
+        "android_client_info": {
+          "package_name": "uz.boxodir.puzzle_15"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx5DJUxEOK64hEleic2NfU6G_RvPSVxl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

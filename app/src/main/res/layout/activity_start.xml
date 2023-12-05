@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/start_bg"
+    android:orientation="vertical"
+    tools:context="uz.boxodir.puzzle_15.StartActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35sp"
+        android:gravity="center"
+        android:text="Welcome to Legend Puzzle 15 Game"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:fontFamily="@font/agent"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="180sp"
+        android:layout_height="180sp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/main"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_play"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="55dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_home"
+        android:text="Play"
+        android:drawableTint="@color/white"
+        android:drawableStart="@drawable/baseline_restart_alt_24"
+        android:backgroundTint="#FF9467"
+        android:gravity="center"
+        android:fontFamily="@font/asf"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btn_resum"-->
+<!--        android:layout_width="220dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginHorizontal="55dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:paddingStart="10dp"-->
+<!--        android:background="@drawable/btn_home"-->
+<!--        android:fontFamily="@font/asf"-->
+<!--        android:drawableStart="@drawable/baseline_play_arrow_24"-->
+<!--        android:text="Resume"-->
+<!--        android:backgroundTint="#FF9467"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="25sp"-->
+<!--        android:textStyle="bold" />-->
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_info"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:paddingStart="10dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/baseline_info_24"
+        android:background="@drawable/btn_home"
+        android:fontFamily="@font/asf"
+        android:text="Info"
+        android:backgroundTint="#FF9467"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_shareProject"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/baseline_share_24"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="15dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/btn_home"
+        android:fontFamily="@font/asf"
+        android:text="Share"
+        android:backgroundTint="#FF9467"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

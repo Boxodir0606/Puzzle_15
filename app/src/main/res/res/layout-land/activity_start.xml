@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_view"
+    android:orientation="vertical"
+    tools:context=".StartActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:fontFamily="@font/nunito_bolditalic"
+        android:gravity="center"
+        android:text="Welcome to Puzzle \n15 game"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/solution"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/drawable_group"
+        android:fontFamily="@font/nunito_bolditalic"
+        android:text="Play"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/drawable_group"
+        android:fontFamily="@font/nunito_bolditalic"
+        android:text="INfo"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_shareProject"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/drawable_group"
+        android:fontFamily="@font/nunito_bolditalic"
+        android:text="Share project"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:fontFamily="@font/nunito_blackitalic"
+        android:gravity="center"
+        android:text="Rate us!"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="app_name">"Legend Puzzle 15 Game"</string>
+    <string name="text">" O'n beshta o'yin klassik kombinatsiyalangan boshqotirma. Dastlab Gem Puzzle deb nomlangan, u 15 raqamlangan plitkali yog'och quti edi. 1880-yillarda jumboqni yechish uchun mukofot taklif qilinganda o'yin xitga aylandi. Biroq, o'sha paytda hamma ham ba'zi plitka kombinatsiyalarini hal qilish mumkin emasligini bilmas edi. Endi siz 15 jumboqni onlayn o'ynashingiz mumkin va uni hal qilish mumkinligiga ishonch hosil qiling!. O'n besh jumboq ning maqsadi plitkalarni taxtadagi bo'sh joyga birma-bir siljitish orqali 1 dan 15 gacha joylashtirishdir. Plitka 1 yuqori chap burchakda, kafel 2 uning o'ng tomonida va hokazo, pastki o'ng tomonda bo'sh joy bo'lsa, jumboq echilgan hisoblanadi. Plitkani bo'sh joyga ko'chirish uchun siz uni bosishingiz yoki o'yin maydoniga tegib, klaviaturadagi o'q tugmalaridan foydalanishingiz mumkin. Plitkalar faqat vertikal yoki gorizontal harakatlanishi.Ushbu dasturni GITA dasturchilar akademiyasi talabasi Kenjayev Boxodir kurs davomida ishlab chiqdi."</string>
+
+
+</resources>
